@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <h1>Formulario</h1>
+
+    <form
+      action="https://formsubmit.co/your@email.com"
+      method="post"
+      target="_blank"
+    >
+      <fieldset>
+        <legend>Datos Basicos </legend>
+
+        
+        <div>
+          <label for="nombre">Nombre: </label>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            minlength="2"
+            maxlength="5"
+          />
+        </div>
+
+        <div>
+          <label for="dni">DNI</label>
+          <input type="number" name="dni" id="dni" value="123" />
+        </div>
+
+        <div>
+          <label for="url">URL: </label>
+          <input
+            type="url"
+            name="url"
+            id="url"
+            required
+            placeholder="http//:"
+          />
+        </div>
+
+        <div>
+          <label for="password">Contraseña</label>
+          <input type="password" name="password" id="password" />
+        </div>
+      </fieldset>
+
+      <div>
+        <label for="html">HTML</label>
+        <input type="checkbox" name="html" id="html" />
+        <label for="css">CSS</label>
+        <input type="checkbox" name="css" id="css" value="5" />
+      </div>
+
+      <div>
+        <label for="si">SI</label>
+        <input type="radio" name="acepta" id="si" value="si" />
+        <label for="no">NO</label>
+        <input type="radio" name="acepta" id="no" value="no" />
+      </div>
+
+      <fieldset>
+        <div>
+          <label for="mensaje">Mensaje: </label>
+          <textarea
+            name="mensaje"
+            id="mensaje"
+            cols="30"
+            rows="10"
+            placeholder="teste"
+          ></textarea>
+        </div>
+      </fieldset>
+
+      <div>
+        <label for="horario">Horario: </label>
+        <select name="horario" id="horario">
+          <option value="Selecione horario"></option>
+          <option value="1">MAÑANA</option>
+          <option value="2">TARDE</option>
+          <option value="3">NOCHE</option>
+        </select>
+      </div>
+
+      <input type="submit" value="Input" />
+      <button type="submit">Boton</button>
+      <input type="reset" value="Borrar" />
+    </form>
+  </body>
+</html>
