@@ -1,0 +1,105 @@
+ul,
+ol{
+    list-style: none;
+    padding-left: 0;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+h1
+h2,
+h3{
+    color: chocolate;
+}
+
+/* main p {
+    color: red;
+} */
+
+/* main > p {
+    color: blue;
+} */
+
+/* h2 + p {
+    color: green;
+} */
+
+/* h3 ~ p {
+    color: green;
+} */
+
+/* .article__parrafo {
+    color: red;
+} */
+
+/* article p:last-child {
+    color: blue;
+} */
+
+/* article p:nth-child(2) {
+    color: blue;
+}  */
+
+/* article p:nth-child(odd) {
+    color: blue;
+}  */
+
+/* 
+a:link{
+    color: coral;
+}
+
+a:visited{
+    color: gray;
+}
+
+a:active{
+    color: greenyellow;
+}
+
+a:hover{
+    border: 1px solid red;
+} */
+
+/* a{
+    color: darkcyan;
+} */
+
+/* h1:hover{
+    text-decoration: underline;
+} */
+
+/* div p:last-child::first-letter{
+    font-size: 3em;
+    color: red;
+
+} */
+
+/* .ultimo-parrafo::first-letter{
+    font-size: 3em;
+    color: red;
+} */
+
+/* .ultimo-parrafo::first-line{
+    font-size: 3em;
+    color: green;
+} */
+
+/* .ultimo-parrafo::selection{
+    font-size: 3em;
+    background-color: brown;
+    color: yellow;
+    
+} */
+
+/* h2::before{
+    content: "***";
+}
+
+h2::after{
+    content: "%%%";
+} */
+
