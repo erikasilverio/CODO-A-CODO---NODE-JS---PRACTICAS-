@@ -37,8 +37,12 @@ small.className = "footer_small";
 small.style.color = "orange";
 
 
+
+
 // const otroSmall = small.cloneNode(true);
 // otroSmall.textContent = 2025;
 
 
 console.log(small);
+
+small.remove();
