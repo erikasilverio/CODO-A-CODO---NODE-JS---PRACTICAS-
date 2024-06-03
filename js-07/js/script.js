@@ -67,6 +67,9 @@ form.addEventListener('submit', (event) => {
             title: title,
             complete: false,
         };
+
+
+        
         // console.log(task);
 
 
@@ -77,7 +80,7 @@ form.addEventListener('submit', (event) => {
 
         // GUARDARLO EM FORMATO JSON EN EL LOCAL STORAGE ********************************
 
-        localStorage.setItem("tasks", JSON.stringify(tasks))
+        // localStorage.setItem("tasks", JSON.stringify(tasks))
 
         taskInput.value = "";
 
