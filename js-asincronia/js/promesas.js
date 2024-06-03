@@ -49,7 +49,9 @@ function multiplicar(a, b) {
 
 //---------------------
 
-multiplicar(1, 2) .then(res => {
+multiplicar(1, 2)
+
+.then(res => {
     console.log(`${res.num1} X ${res.num2} = ${res.result}`);
     return multiplicar(2, 2);
 })
